@@ -14,6 +14,9 @@
 		EF550F1E1B2F6C4D00779A14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF550F1D1B2F6C4D00779A14 /* Images.xcassets */; };
 		EF550F211B2F6C4D00779A14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF550F1F1B2F6C4D00779A14 /* LaunchScreen.xib */; };
 		EF550F2D1B2F6C4D00779A14 /* Tut1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF550F2C1B2F6C4D00779A14 /* Tut1Tests.m */; };
+		EF550F381B2F749B00779A14 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF550F371B2F749B00779A14 /* SecondViewController.m */; };
+		EF550F3B1B2F7DAE00779A14 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF550F3A1B2F7DAE00779A14 /* ThirdViewController.m */; };
+		EF550F3D1B2F7DD500779A14 /* iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF550F3C1B2F7DD500779A14 /* iphone.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,13 @@
 		EF550F1D1B2F6C4D00779A14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EF550F201B2F6C4D00779A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EF550F261B2F6C4D00779A14 /* Tut1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tut1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF550F2B1B2F6C4D00779A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF550F2B1B2F6C4D00779A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tut1Tests/Info.plist; sourceTree = SOURCE_ROOT; };
 		EF550F2C1B2F6C4D00779A14 /* Tut1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tut1Tests.m; sourceTree = "<group>"; };
+		EF550F361B2F749B00779A14 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EF550F371B2F749B00779A14 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		EF550F391B2F7DAE00779A14 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		EF550F3A1B2F7DAE00779A14 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		EF550F3C1B2F7DD500779A14 /* iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iphone.jpg; path = ../../../Downloads/iphone.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				EF550F0F1B2F6C4D00779A14 /* Tut1 */,
-				EF550F291B2F6C4D00779A14 /* Tut1Tests */,
 				EF550F0E1B2F6C4D00779A14 /* Products */,
+				EF550F291B2F6C4D00779A14 /* Tut1Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +89,7 @@
 		EF550F0F1B2F6C4D00779A14 /* Tut1 */ = {
 			isa = PBXGroup;
 			children = (
+				EF550F3C1B2F7DD500779A14 /* iphone.jpg */,
 				EF550F141B2F6C4D00779A14 /* AppDelegate.h */,
 				EF550F151B2F6C4D00779A14 /* AppDelegate.m */,
 				EF550F171B2F6C4D00779A14 /* ViewController.h */,
@@ -89,6 +98,10 @@
 				EF550F1D1B2F6C4D00779A14 /* Images.xcassets */,
 				EF550F1F1B2F6C4D00779A14 /* LaunchScreen.xib */,
 				EF550F101B2F6C4D00779A14 /* Supporting Files */,
+				EF550F361B2F749B00779A14 /* SecondViewController.h */,
+				EF550F371B2F749B00779A14 /* SecondViewController.m */,
+				EF550F391B2F7DAE00779A14 /* ThirdViewController.h */,
+				EF550F3A1B2F7DAE00779A14 /* ThirdViewController.m */,
 			);
 			path = Tut1;
 			sourceTree = "<group>";
@@ -199,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF550F3D1B2F7DD500779A14 /* iphone.jpg in Resources */,
 				EF550F1C1B2F6C4D00779A14 /* Main.storyboard in Resources */,
 				EF550F211B2F6C4D00779A14 /* LaunchScreen.xib in Resources */,
 				EF550F1E1B2F6C4D00779A14 /* Images.xcassets in Resources */,
@@ -219,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF550F381B2F749B00779A14 /* SecondViewController.m in Sources */,
+				EF550F3B1B2F7DAE00779A14 /* ThirdViewController.m in Sources */,
 				EF550F191B2F6C4D00779A14 /* ViewController.m in Sources */,
 				EF550F161B2F6C4D00779A14 /* AppDelegate.m in Sources */,
 				EF550F131B2F6C4D00779A14 /* main.m in Sources */,
